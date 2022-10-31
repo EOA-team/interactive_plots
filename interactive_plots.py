@@ -70,6 +70,6 @@ def onclose(event): # on figure close do..
     fig.canvas.mpl_disconnect(cid2)
     print('figure closed')
 
-# connect listening functions
+# CONNECT LISTENING FUNCTIONS TO FIGURE
 cid = fig.canvas.mpl_connect('button_press_event', onclick)
 cid2 = fig.canvas.mpl_connect('close_event', onclose)
