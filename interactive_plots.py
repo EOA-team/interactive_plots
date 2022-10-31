@@ -11,6 +11,7 @@ Created on Mon Oct 31 14:29:53 2022
 
 @author: orianif
 """
+# DEPENDENCIES
 import numpy as np
 import matplotlib.pyplot as plt
 font = {'family' : 'DejaVu Sans',
